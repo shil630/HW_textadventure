@@ -62,10 +62,12 @@ void draw() {
   }else if (key == 'l' && step == 3){
      println(" ");
      println("Annoying traffic jam.");
+     step = 4;
   }else if (key == 'r' && step == 3){
      println(" ");
      println("Cool!You arrive.");
      println("You win!But trust me,soon you will die.");
+     step = 4;
   }else if (key == 'k' && step == 3){
      println(" ");
      println("The robber just shoots you.");
